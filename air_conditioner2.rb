@@ -1,10 +1,5 @@
-num = []
-sum = 0
-count = 0
-while sum < 15
-  count += 1
-  reciprocal = 1.0/count
-  num << reciprocal
-  sum = num.sum
+num = 0
+40.times do |i|
+  num += (i+1)**4
+  puts num
 end
-puts num.length
